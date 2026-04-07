@@ -1,0 +1,36 @@
+.wrapper {
+  padding-inline: var(--padding-y);
+  background-color: var(--color-primary);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 67;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  &:hover {
+    background-color: var(--color-button-hover);
+    cursor: pointer;
+  }
+}
+
+.link {
+  display: block;
+  padding: 23px 20px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.isSelected {
+  background-color: var(--color-button-hover);
+}

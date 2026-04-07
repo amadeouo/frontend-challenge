@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-inline: var(--padding-y);
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-block: 50px;
+  gap: 48px;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loader {
+  text-align: center;
+  margin-bottom: 30px;
+}

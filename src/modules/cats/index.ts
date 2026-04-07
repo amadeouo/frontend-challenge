@@ -1,0 +1,1 @@
+export { default as Cats } from "./ui/cats"

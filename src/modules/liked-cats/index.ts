@@ -1,0 +1,1 @@
+export { default as LikedCats } from "./ui/liked-cats"
